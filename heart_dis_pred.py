@@ -48,3 +48,7 @@ y_pred = (y_pred > 0.5)
 # Making the Confusion Matrix
 from sklearn.metrics import confusion_matrix
 cm = confusion_matrix(y_test, y_pred)
+
+#Print Score
+scores = classifier.evaluate(X, y)
+print("\n%s: %.2f%%" % (classifier.metrics_names[1], scores[1]*100))
