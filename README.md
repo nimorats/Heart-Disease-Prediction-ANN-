@@ -22,4 +22,7 @@ Attribute Information:
 > 12. number of major vessels (0-3) colored by flourosopy 
 > 13. thal: 3 = normal; 6 = fixed defect; 7 = reversable defect
 
-Accuracy of 86.14%
+Accuracy is ~85%
+
+A neural network with 2 hidden layer of 6 nodes, input layer with 12 nodes and one output node. Output is binary which indicates the person could be or would be suffering from any heart diseases.
+
