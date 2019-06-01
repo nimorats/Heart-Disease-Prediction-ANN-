@@ -22,3 +22,4 @@ Attribute Information:
 > 12. number of major vessels (0-3) colored by flourosopy 
 > 13. thal: 3 = normal; 6 = fixed defect; 7 = reversable defect
 
+Accuracy of 86.14%
